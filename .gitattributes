@@ -1,8 +1,0 @@
-shell/* linguist-detectable=false
-shell/** linguist-detectable=false
-
-docs/wasm/* linguist-detectable=false
-
-docs/*.html linguist-language=HTML
-docs/*.css linguist-language=CSS
-docs/*.js linguist-language=JavaScript
