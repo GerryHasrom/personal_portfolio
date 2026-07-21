@@ -1,4 +1,4 @@
-catatan_projek.txt
-*.lock
-
 Makefile
+*.d
+*.dtrace
+shell/target/
