@@ -1,0 +1,10 @@
+# Abaikan folder shell (Rust) dari statistik
+shell/* linguist-vendored
+
+# Abaikan folder wasm (hasil build)
+docs/wasm/* linguist-vendored
+
+# Abaikan Makefile & DTrace secara spesifik
+Makefile linguist-vendored
+*.d linguist-vendored
+*.dtrace linguist-vendored
