@@ -1,6 +1,7 @@
-# Abaikan semua file di folder shell (Rust) dari perhitungan bahasa
 shell/* linguist-vendored
-shell/** linguist-vendored
 
-# Abaikan hasil build wasm (tetap vendored)
 docs/wasm/* linguist-vendored
+
+docs/*.html linguist-language=HTML
+docs/*.css linguist-language=CSS
+docs/*.js linguist-language=JavaScript
