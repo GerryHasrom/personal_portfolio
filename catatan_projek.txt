@@ -1,0 +1,15 @@
+[Jika memodifikasi codingan rust selalu lakukan update dengan ..
+[--> 
+[1. pastikan berada di path shell, dan bukan path web
+[2. type command berikut 'wasm-pack build --target web --out-dir ..\web\wasm'
+=================================================================================================
+[me = untuk perkenalan singkat
+[edit = custom color warna
+[delete = hapus semua input dan output sampai bersih
+[go = pergi ke landing page
+[hobbies = hobi
+[education = pendidikan
+[status = status diri
+[email = isi email
+[parents = nama orang tua
+=================================================================================================

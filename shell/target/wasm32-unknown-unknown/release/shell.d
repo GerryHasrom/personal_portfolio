@@ -1,1 +1,0 @@
-E:\TEST\ SERIUS\ INTJ\Projek\ 1\terminal-portfolio-gerry\shell\target\wasm32-unknown-unknown\release\shell.wasm: E:\TEST\ SERIUS\ INTJ\Projek\ 1\terminal-portfolio-gerry\shell\src\commands.rs E:\TEST\ SERIUS\ INTJ\Projek\ 1\terminal-portfolio-gerry\shell\src\lib.rs
