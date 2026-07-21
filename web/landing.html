@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerry Hasrom | Portfolio</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🖥️</text></svg>">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">Gerry Hasrom</a>
+            <ul>    
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills&experience">Skills & Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievement</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact me">Contacts</a></li>
+                <li><a href="index.html" class="btn-outline">>_ Terminal</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="global-wrapper">
+        <canvas id="particles-canvas"></canvas>
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>
+                        <span class="hero-greeting">Hi there! <br> I am</span>
+                        <span class="hero-name">Gerry Hasrom</span>
+                    </h1>
+                    <p class="subtitle">Informatics graduate from Mulawarman University.</p>
+        
+                    <div class="hero-cta-card">
+                        <div class="social-links">
+                            <!-- LinkedIn -->
+                            <a href="https://linkedin.com/in/gerryhasrom" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/GerryHasrom" target="_blank" aria-label="GitHub" data-tooltip="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://instagram.com/gerryhasrom" target="_blank" aria-label="Instagram" data-tooltip="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <!-- Gmail -->
+                            <a href="mailto:gerryhasrom25@gmail.com" target="_blank" aria-label="Gmail" data-tooltip="Gmail">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                    <path d="m22 4-10 7L2 4"></path>
+                                </svg>
+                            </a>
+                            <!-- X (Twitter) -->
+                            <a href="https://x.com/gerryhasrom" target="_blank" aria-label="X (Twitter)" data-tooltip="X (Twitter)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="4 4 11 11 4 20"></polyline>
+                                    <polyline points="20 4 13 11 20 20"></polyline>
+                                    <line x1="4" y1="4" x2="20" y2="20"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-animation">
+                    <div id="lottie-hero"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid reveal">
+                    <!-- Foto (kiri atau kanan, tergantung selera) -->
+                    <div class="about-image">
+                        <div class="image-circle">
+                            <img src="images/foto_about2.jpg" alt="Gerry Hasrom">
+                        </div>
+                    </div>
+                    <!-- Deskripsi -->
+                    <div class="about-text">
+                        <p class="about-greeting">Hello! I'm</p>
+                        <h3 class="about-name">Gerry Hasrom</h3>
+                        <p class="about-tagline">Informatics Graduate • Systems Thinker</p>
+                        <p class="about-description">
+                            I’m deeply passionate about <span class="highlight">low-level programming</span>, 
+                            <span class="highlight">compilers</span>, and 
+                            <span class="highlight">distributed systems</span>. 
+                            I love crafting tools that bridge hardware and the web — 
+                            like this terminal portfolio powered by <strong>Rust & WebAssembly</strong>.
+                        </p>
+                        <p class="about-description">
+                            Outside of coding, I explore operating system internals, 
+                            contribute to open-source, and ponder over the next big idea in real estate.
+                        </p>
+                        <!-- Info tambahan ala kartu nama -->
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-icon">📍</span>
+                                <span>Samarinda, Indonesia</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">🎓</span>
+                                <span>Universitas Mulawarman</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">💼</span>
+                                <span>Open for opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card reveal">
+                        <h3>🖥️ Terminal Portfolio</h3>
+                        <p>A unique portfolio website with a fully functional terminal built from scratch using Rust and WebAssembly.</p>
+                        <div class="tech">
+                            <span>Rust</span><span>WebAssembly</span><span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/GerryHasrom/terminal-portfolio-gerry" target="_blank">GitHub Repo →</a>
+                    </div>
+                    <div class="project-card reveal">
+                        <h3>🧠 Mini OS Kernel</h3>
+                        <p>An experimental microkernel demonstrating process scheduling, virtual memory, and interrupt handling.</p>
+                        <div class="tech">
+                            <span>Rust</span><span>Assembly</span>
+                        </div>
+                        <a href="#" target="_blank">Coming Soon</a>
+                    </div>
+                    <div class="project-card reveal">
+                        <h3>⚙️ Custom Compiler</h3>
+                        <p>A toy programming language compiler that targets WebAssembly, written in Rust with a hand-written lexer and parser.</p>
+                        <div class="tech">
+                            <span>Rust</span><span>WebAssembly</span>
+                        </div>
+                        <a href="#" target="_blank">Coming Soon</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-container reveal">
+                    <div class="skill-item"><div class="skill-icon">🦀</div><div class="skill-name">Rust</div></div>
+                    <div class="skill-item"><div class="skill-icon">⚙️</div><div class="skill-name">C</div></div>
+                    <div class="skill-item"><div class="skill-icon">🌐</div><div class="skill-name">WebAssembly</div></div>
+                    <div class="skill-item"><div class="skill-icon">📜</div><div class="skill-name">JavaScript</div></div>
+                    <div class="skill-item"><div class="skill-icon">🐧</div><div class="skill-name">Linux</div></div>
+                    <div class="skill-item"><div class="skill-icon">🔄</div><div class="skill-name">Git</div></div>
+                    <div class="skill-item"><div class="skill-icon">🔗</div><div class="skill-name">Blockchain</div></div>
+                    <div class="skill-item"><div class="skill-icon">🧩</div><div class="skill-name">Dist. Systems</div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-links reveal">
+                    <a href="mailto:gerry@example.com" class="contact-link">
+                        <span style="font-size:2rem;">📧</span> Email
+                    </a>
+                    <a href="https://github.com/GerryHasrom" target="_blank" class="contact-link">
+                        <span style="font-size:2rem;">🐙</span> GitHub
+                    </a>
+                    <a href="#" class="contact-link">
+                        <span style="font-size:2rem;">💼</span> LinkedIn
+                    </a>
+                    <a href="index.html" class="contact-link">
+                        <span style="font-size:2rem;">>_</span> Terminal
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Gerry Hasrom. Built with Rust, WebAssembly, and caffeine.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="landing.js"></script>
+</body>
+</html>
